@@ -3,10 +3,20 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppHotel_flavia.Views.sobre"
              Title="sobre">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10">
+
+        <Label Text="Desenvolvido por: Flavia da Silva." 
+               FontFamily="GreatVibes-Regular"
+               FontSize="50"
+               TextColor="White"
+               HorizontalOptions="Center" />
+
+        <Label Text="Ano 2025." 
+               FontFamily="Lato-Regular"
+               FontSize="15"
+               TextColor="White" 
+               HorizontalOptions="Center" />
+
     </VerticalStackLayout>
 </ContentPage>
